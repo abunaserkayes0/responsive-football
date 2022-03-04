@@ -1,5 +1,6 @@
 /* Google-fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
 /*-----------------
 Common-styles
 -------------------*/
@@ -178,4 +179,29 @@ footer {
 }
 footer p {
   margin: 20px 0;
+}
+
+/*-----------------
+ Media-Query
+-------------------*/
+
+@media only screen and (max-width:688px) {
+  .banner-image{
+    margin:10% 0;
+  }
+  .players,.albums,.contact,.banner{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .contact-image img{
+    width: 100%;
+  }
+  .footer-image{
+    margin:0 20px;
+  }
+}
+
+@media only screen and (min-width:689px) and (max-width:991px){ 
+  .players,.albums{
+    grid-template-columns: repeat(2,1fr);
+  }
 }
