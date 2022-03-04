@@ -83,3 +83,29 @@ header{
 .player-details p{
     text-align: justify;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-image{
+    max-width: 480px;
+}
+.footer-image img{
+    width: 100%;
+}
+.icon-container .icon{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color:#e7e7e8;
+    color: #969BAB;
+}
+footer p{
+    margin: 20px 0;
+}
